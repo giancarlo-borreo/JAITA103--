@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Choose Difficulty</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <style>
+    body {
+      background: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    a {
+      padding: 10px 20px;
+      font-size: 16px;
+      margin: 10px;
+      border: 2px solid white;
+      background: black;
+      color: white;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    a:hover {
+      background: white;
+      color: black;
+    }
+
+    .ludicrous-button {
+      border: 2px solid darkred;
+      background: black;
+      color: darkred;
+    }
+
+    .ludicrous-button:hover {
+      background: darkred;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <a href="easy.html">Easy</a>
+    <a href="medium.html">Medium</a>
+    <a href="hard.html">Hard</a>
+    <a href="ludicrous.html" class="ludicrous-button">Ludicrous Mode</a>
+    <a href="linkedlist.html">Linked List Mode</a>
+  </div>
+</body>
+</html>

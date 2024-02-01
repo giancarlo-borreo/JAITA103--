@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+}
+
+.intro {
+  position: relative;
+  height: 100vh;
+  background: url('https://img.freepik.com/premium-photo/stars-galaxy-outer-space-sky-night-universe-black-starry-background-shiny-starfield_146539-2110.jpg') center/cover no-repeat;
+  color: yellow;
+  display: flex; 
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: 'starwars', sans-serif;  /* Added generic font family */
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+}
+
+
+.crawl {
+  animation: crawl 120s linear infinite;
+  white-space: pre-wrap;
+  position: relative;
+  bottom: 0;
+  text-align: center;
+}
+
+@keyframes crawl {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(-600%);
+  }
+}
+
+@keyframes resetScroll {
+  to {
+    transform: translateY(0) scale(1);
+  }
+}
+
+@font-face {
+  font-family: 'starwars';
+  src: url(starwars.ttf);
+}
+
+p {
+  margin: 0;
+  font-size: 2em;
+  line-height: 1.5;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.intro h1{
+  font-size: 100px;
+}
+
+.intro h2{
+  font-size: 60px;
+}

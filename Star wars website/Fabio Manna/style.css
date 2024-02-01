@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Poller+One&display=swap');
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background: url('https://www.ppt-backgrounds.net/thumbs/star-wars-intro-star-wars-intro-css3-by-florian-on-depen-clip-art-PPT.jpeg') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+/*@keyframes shrinkText {       effetto a scomparsa del testo senza successo :(
+    0% {
+        font-size: 100%;
+    }
+    100% {
+        font-size: 50%;
+    }
+}
+*/
+
+.vada_non_cincischi {  
+  color: yellow;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Poller One', serif;
+  width: 40%;
+  height: 80%;
+  animation: crawl 20s linear infinite, shrinkText 20s linear infinite;
+}
+
+.crawl {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 85px;
+    margin: -40px;
+    margin-top: -110px;
+    font-family: 'Bungee Outline', sans-serif;
+
+}
+
+br {
+    margin-top: 10px;
+}
+
+@keyframes crawl {
+    0% {
+        transform: translateY(100);
+    } 
+    100% {
+        transform: translateY(-100%);
+    }
+}

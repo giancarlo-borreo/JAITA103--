@@ -1,0 +1,15 @@
+{
+    "user": {
+      "id": 123,
+      "username": "example_user",
+      "email": "user@example.com",
+      "first_name": "John",
+      "last_name": "Doe",
+      "age": 30,
+      "address": {
+        "street": "123 Street Name",
+        "city": "City",
+        "country": "Country"
+      }
+    }
+  }
